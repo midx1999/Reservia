@@ -1,6 +1,7 @@
 *{
     font-family: 'Raleway', sans-serif;
     padding: 0;
+    
     margin: 0;
     list-style: none;
 }
@@ -8,6 +9,8 @@
 a {
     text-decoration: none;
 }
+
+/*HEADER*/
 
 header {
     border: 1px solid black;
@@ -40,3 +43,61 @@ header {
     position: relative;
     left: 15px;
 }
+
+/*FIN HEADER*/
+
+.research{
+    background-color: #0065FC;
+    border-color: #0065FC;
+    color: #ffffff;
+    padding: 5px;
+    
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#site-search {
+    padding: 5px;
+}
+
+.fas fa-map-marker-alt{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+#holiday_home{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hebergements{
+    background-color: #F2F2F2;
+}
+
+.popular{
+    background-color: #F2F2F2;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #F2F2F2;
+    
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about{
+    position: relative;
+    left: 10px;
+}
+
+.assistance {
+    position: relative;
+    right: 35px;
+    
+    padding:15px;
+}
+/*FIN FOOTER*/
