@@ -12,10 +12,6 @@ a {
 
 /*HEADER*/
 
-header {
-    border: 1px solid black;
-    
-}
 
 .menu_nav {
     display: inline-flex;
@@ -46,6 +42,30 @@ header {
 
 /*FIN HEADER*/
 
+#economic_select{
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+#all_family{
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 15px
+}
+
+#romance{
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 15px
+}
+
+#pets_allowed{
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 15px
+}
+
 .research{
     background-color: #0065FC;
     border-color: #0065FC;
@@ -60,6 +80,16 @@ header {
     padding: 5px;
 }
 
+img{
+    padding: 15px;
+    
+}
+
+.pin_up{
+    color: black;
+}
+
+
 .fas fa-map-marker-alt{
     padding: 5px;
     border: 1px solid black;
@@ -67,15 +97,19 @@ header {
 
 #holiday_home{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .hebergements{
     background-color: #F2F2F2;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .popular{
     background-color: #F2F2F2;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 /*FOOTER*/
