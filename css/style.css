@@ -112,6 +112,167 @@ img{
     border-radius: 10px;
 }
 
+.first_ligne{
+    display: flex;
+    
+}
+
+.second_ligne{
+    display: flex;
+}
+
+#hebergements_marseille{
+    padding: 15px;
+    position: relative;
+    left: 12px;
+}
+
+/*HEBERGEMENTS*/
+/*PREMIERE IMAGE*/
+
+.cannebiere{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.cannebiere25{
+    padding-left: 15px;
+}
+
+.cannebiere img{
+    border-radius: 10px;
+}
+
+/*DEUXIEME IMAGE*/
+.hotel_duport{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.port52{
+    padding-left: 15px;
+}
+
+/*TROISIEME IMAGE*/
+.hotel_lesmouettes{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.mouettes76{
+    padding-left: 15px;
+}
+
+/*QUATRIEME IMAGE*/
+.hotel_dela_mer{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.mer46{
+    padding-left: 15px;
+
+}
+
+/*CINQUIEME IMAGE */
+.auberge_lepanier{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.panier23{
+    padding-left: 15px;
+
+}
+
+/*SIXIEME IMAGE */
+.hotel_amina{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.amina96{
+    padding-left: 15px;
+
+}
+
+/*POPULAIRE*/
+.popular_title{
+    padding: 15px;
+    position: relative;
+    left: 12px;
+}
+/*PREMIERE IMAGE*/
+.hotel_matin{
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.soleil_matin{
+    padding-top: 14px;
+    padding-right: 30px;
+}
+/*DEUXIEME IMAGE*/
+.coeur_eau{
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.coeureau{
+    padding-top: 14px;
+    padding-right: 30px;
+}
+/*TROISIEME IMAGE*/
+
+.hotel_bleublanc{
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.bleublanc{
+    padding-top: 14px;
+    padding-right: 30px;
+}
+
+
 /*FOOTER*/
 footer{
     background-color: #F2F2F2;
