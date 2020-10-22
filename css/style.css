@@ -475,6 +475,7 @@ a {
   }
   
 /*FOOTER*/
+/*
 footer{
     background-color: #F2F2F2;
 }
@@ -496,6 +497,29 @@ footer{
     right: 35px;
     
     padding:15px;
+}
+*/
+
+
+
+.footerbox {
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px;
+    background-color: #F2F2F2;
+    line-height: 2;
+    width: 100%;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 40%;
+}
+
+.footer-section a {
+    color: black;
 }
 
 /*FIN FOOTER*/
