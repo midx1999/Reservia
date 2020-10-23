@@ -2,12 +2,16 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <!--AUTEUR-->
     <meta name="author" content="Valentin Lauwers">
+    <!--DESCRIPTION-->
     <meta name="description" content="Site de réservation d'hébergements avec sa liste d'activitées dans la ville recherchée.">
     <title>Reservia</title>
+    <!--LES FEUILLES DE STYLE-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 1024px)" href="css/tablette.css">
     <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="css/mobile.css">
+    <!--POLICE D'ECRITURE-->
     <link href ="https://fonts.googleapis.com/css2? family = Raleway: wght @ 500 & display = swap" rel ="stylesheet">
     <!--FONT AWESOME-->
     <script src="https://kit.fontawesome.com/a08010fed3.js" crossorigin="anonymous"></script>
@@ -32,140 +36,51 @@
     <!--/HEADER-->
 
     <section id="all_research">
-        <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
+        <h3 class="premier-titre">Trouvez votre hébergement pour des vacances de rêve</h3>
 
-        <p>En plein centre ville ou en pleine nature</p>
+        <p class="soustitre-titre">En plein centre ville ou en pleine nature</p>
 
-        <span class="city_search">
-
-            <i class="fas fa-map-marker-alt"><input type="search" id="site-search" placeholder="Marseille, France"></i>
+    
+        <div class="recherche">
+            <i class="fas fa-map-marker-alt icon-recherche"></i>
+            <input id="site-search" type="search" placeholder="Marseille, France">
             <button class="research">Rechercher</button>
+        </div>
 
-        </span>
+        
 
-        <span class="search_filter">
-            <label for="search_select">Filtres</label>
-            <select name="economic" id="economic_select">
-                <option value="eco">Economique</option>
-                <option value="#">choix</option>
-                <option value="#">choix</option>
-                <option value="#">choix</option>
-            </select>
-            <select name="family" id="all_family">
-                <option value="family">Familial</option>
-                <option value="#">choix</option>
-                <option value="#">choix</option>
-                <option value="#">choix</option>
-            </select>
-            <select name="romantic" id="romance">
-                <option value="romantic"><i class="fas fa-heart"></i>Romantique</option>
-                <option value="#">choix</option>
-                <option value="#">choix</option>
-                <option value="#">choix</option>
-            </select>
-            <select name="animals" id="pets_allowed">
-                <option value="animals">Animaux autorisés</option>
-                <option value="#">choix</option>
-                <option value="#">choix</option>
-                <option value="#">choix</option>
-            </select>
+
+        <span class="filtres">
+            <label for="search_select" class="titre-filtres">Filtres</label>
+
+            <div class="filtres-box">
+                <i class="fas fa-money-bill-wave icon-filtres"></i>
+                <p class="text-filtre">Economique</p>
+            </div>
+
+            <div class="filtres-box">
+                <i class="fas fa-child icon-filtres"></i>
+                <p class="text-filtre">Familial</p>
+            </div>
+
+            <div class="filtres-box">
+                <i class="fas fa-heart icon-filtres"></i>
+                <p class="text-filtre">Romance</p>
+            </div>
+
+            <div class="filtres-box">
+                <i class="fas fa-dog icon-filtres"></i>
+                <p class="text-filtre">Animaux autorisés</p>
+            </div>
+
+
         </span>
 
         <div class="information">
-            <p><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+            <p><i class="fas fa-info icon-info"></i></i>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
     </section>
-<!--
-    <div id="container1">
-        <div id="container2">
-            <h2>Hébergements à Marseille</h2>
-            <div id="cards_container2">
-                <a class="card1" href="#">
-                    <img class="card1_img" src="images/hebergements/small/auberge_cannebiere.jpg" alt="Auberge de la cannebière">
-                    <div class="card1_text">
-                        <p class="bold">Auberge de la cannebière</p>
-                        <p>Nuit à partir de <span class="bold">25&euro;</span></p>
-                    </div>
-                    <div class="card1_stars">
-                        <i class="fas fa-star blue"></i>
-                        <i class="fas fa-star blue"></i>
-                        <i class="fas fa-star blue"></i>
-                        <i class="fas fa-star blue"></i>
-                        <i class="fas fa-star grey"></i>
-                    </div> 
-                </a>
-            </div>
-        </div>
-    </div>
 
-    -->
-    <!--
-    <section id="holiday_home">
-        <div class="hebergements">
-            
-
-            <article class="house_marseille">
-                <h3 id="hebergements_marseille">Hébergements à Marseille</h3>
-                    <div class="first_ligne">
-                            <div class="cannebiere">
-                                    <img src="images/hebergements/large/auberge_cannebiere.jpg" alt="Auberge La Cannebière" width="230px" height="130px" id="auberge_cannebiere">
-                                    <p class="cannebiere25"><strong>Auberge la Cannebière </strong><br> Nuit à partir de <strong>25€</strong></p>
-                                    
-                                    
-                            </div>
-                            <div class="hotel_duport">
-                                    <img src="images/hebergements/large/hotel_du_port.jpg" alt="Hôtel du port" width="230px" height="130px" id="hotel_duport">
-                                    <p class="port52"><strong>Hôtel du port</strong><br>Nuit à partir de <strong>52€</strong></p>
-                                    
-                            </div>
-                            <div class="hotel_lesmouettes">
-                                    <img src="images/hebergements/large/hotel_les_mouettes.jpg" alt="Hôtel les mouettes" width="230px" height="130px" id="hotel_mouettes">
-                                    <p class="mouettes76"><strong>Hôtel Les mouettes</strong><br>Nuit à partir de <strong>76€</strong></p>
-                                    
-                            </div>
-                    </div>
-                    <div class="second_ligne">
-                            <div class="hotel_dela_mer">
-                                    <img src="images/hebergements/large/hotel_dela_mer.jpg" alt="Hôtel de la mer" width="230px" height="130px" id="hotel_dela_mer">
-                                    <p class="mer46"><strong>Hôtel de la mer</strong><br>Nuit à partir de <strong>46€</strong></p>
-                                    
-                            </div>
-                            <div class="auberge_lepanier">
-                                    <img src="images/hebergements/large/auberge_le_panier.jpg" alt="Auberge le panier" width="230px" height="130px" id="auberge_lepanier">
-                                    <p class="panier23"><strong>Auberge Le panier</strong><br>Nuit à partir de <strong>23€</strong></p>
-                                    
-                            </div>
-                            <div class="hotel_amina">
-                                    <img src="images/hebergements/large/hotel_chez_amina.jpg" alt="Hôtel chez Amina" width="230px" height="130px" id="hotel_amina">
-                                    <p class="amina96"><strong>Hôtel chez Amina</strong><br>Nuit à partir de <strong>96€</strong></p>
-                                    
-                            </div>
-                    </div>
-                    <br><a href="#" class="pin_up">Afficher plus</a>
-            </article>
-
-        </div>
-
-        <aside class="popular">
-            <div>
-                <h3 class="popular_title">Les plus populaires<i class="fas fa-chart-line"></i></h3>
-                
-            </div>
-            <div class="hotel_matin">
-                <img src="images/hebergements/large/hotel_soleil_matin.jpg" alt="Hôtel du soleil du matin" width="130px" height="110px"><br>
-                <p class="soleil_matin"><strong>Hôtel Le soleil du<br> matin<br></strong>Nuit à partir de <strong>128€</strong></p>
-            </div>
-            <div class="coeur_eau">
-                <img src="images/hebergements/large/coeur_de_leau.jpg" alt="Au coeur de l'eau" width="130px" height="110px"><br>
-                <p class="coeureau"><strong>Au coeur de l'eau<br> chambres d'hôtes<br></strong>Nuit à partir de <strong>71€</strong></p>
-            </div>
-            <div class="hotel_bleublanc">
-                <img src="images/hebergements/large/hotel_bleu_blanc.jpg" alt="Hôtel tout bleu et blanc" width="130px" height="110px">
-                <p class="bleublanc"><strong>Hôtel Tout bleu et<br> Blanc<br></strong>Nuit à partir de <strong>68€</strong></p>
-            </div>
-        </aside>
-    </section>
-    -->
 
     <!-- MAIN -->
     <main class="main" id="main">
@@ -378,34 +293,7 @@
     </section>
     
     <!--FOOTER-->
-    <!--
-    <footer>
-    <section id="footer">
-        <aside class="about">
-            <h3>A propos</h3>
-            <ul>
-                <li><a href="#">Fonctionnement du site</a></li>
-                <li><a href="#">Conditions générales de vente</a></li>
-                <li><a href="#">Données et confidentialité</a></li>
-            </ul>
-        </aside>
-        <aside class="house">
-            <h3>Nos hébergements</h3>
-            <ul>
-                <li><a href="#">Charte qualité</a></li>
-                <li><a href="#">Soumettre votre hôtel</a></li>
-            </ul>
-        </aside>
-        <aside class="assistance">
-            <h3>Assistance</h3>
-            <ul>
-                <li><a href="#">Centre d'aide</a></li>
-                <li><a href="#">Nous contacter</a></li>
-            </ul>
-        </aside>
-    </section>
-    </footer>
-    -->
+
     <footer>
 
         <div class="footerbox">
